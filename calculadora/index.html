@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ptBR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title> 
+    <form name="calculadora"></form>
+</head>
+<body>
+    <div class="fundo"> <!--div.nome cria é um atalho para criar class -->
+          <h1>projeto calculadora</h1>
+<div class="calculadora">
+<h1>Calculadora</h1>
+<p id="resultado"></p>
+<table>
+    <tr><!-- linha-->
+<td> <button class="botao" onclick="clean()">C</button> </td> <!--td para dados-->
+<td> <button class="botao" onclick="erase()"><</button> </td>
+<td> <button class="botao" onclick="insert(`/`)">÷</button> </td>
+<td> <button class="botao" onclick="insert(`*`)">X</button> </td>
+    </tr> 
+    <tr><!-- linha-->
+        <td> <button class="botao" onclick="insert(`7`)">7</button> </td> <!--td para dados-->
+        <td> <button class="botao" onclick="insert(`8`)">8</button> </td>
+        <td> <button class="botao" onclick="insert(`9`)">9</button> </td>
+        <td> <button class="botao" onclick="insert(`-`)">-</button> </td>
+            </tr> 
+            <tr><!-- linha-->
+                <td> <button class="botao" onclick="insert(`4`)">4</button> </td> 
+                <td> <button class="botao" onclick="insert(`5`)">5</button> </td>
+                <td> <button class="botao" onclick="insert(`6`)">6</button> </td>
+                <td> <button class="botao" onclick="insert(`+`)">+</button> </td>
+                    </tr> 
+                    <tr><!-- linha-->
+                        <td> <button class="botao" onclick="insert(`1`)">1</button> </td> 
+                        <td> <button class="botao" onclick="insert(`2`)">2</button> </td>
+                        <td> <button class="botao" onclick="insert(`3`)">3</button> </td>
+                        <td rowspan="2"> <button class="botao1" onclick="calcular()">=</button> </td> <!-- deixar botao maior -->
+                            </tr> 
+                            <tr><!-- linha-->
+                                <td colspan="2"> <button  class="botao0" onclick="insert(`0`)" >0</button> </td>  <!--deixar botao maior -->
+                                <td> <button class="botao"  onclick="insert(`.`)">.</button> </td>
+                                    </tr> 
+</table>
+
+</div>
+    </div>  
+    <script src="script.js"></script>
+</body>
+</html>
