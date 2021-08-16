@@ -1,0 +1,40 @@
+.fundo {
+    background-color: goldenrod; 
+    height:100vh;
+    text-align: center;
+}
+
+.result{
+background-color: white;
+
+}
+
+.button:hover {
+    background-color: #ffffff80;
+    cursor:pointer;
+    transition: 0.25s;
+}
+
+.menor {
+    width: 150px;
+    height: 25px;
+}
+.maior{
+    width: 150px;
+    height: 25px;
+}
+
+.result {
+    width: 150px;
+    height: 25px;
+}
+
+.button {
+    width: 150px;
+    height: 25px
+}
+
+*{
+    padding:0;
+    margin: 0;
+}
