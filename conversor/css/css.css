@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #422401;
+    color: white;
+    font-size: 24px;
+    row-gap: 12px;
+  }
+  
+  .button {
+    width: 10rem;
+    height: 2.1rem;
+    color: rgb(0, 0, 0);
+    border: 2px white solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #ffffff;
+  }
+  
+  .button:hover {
+    background-color: #f5b2f5;
+    cursor: pointer;
+  
+    transition: 0.25s;
+  }
+  
